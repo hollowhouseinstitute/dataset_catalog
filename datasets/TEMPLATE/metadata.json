@@ -1,0 +1,13 @@
+{
+  "dataset_id": "H3CD-5",
+  "title": "Human–AI Relational Interaction",
+  "version": "1.0.0",
+  "status": "release",
+  "license": "HHI-MLS",
+  "license_tier": "Research-Eval",
+  "training_permitted": false,
+  "redistribution_permitted": false,
+  "human_derived": true,
+  "contains_sensitive_data": false,
+  "schema_version": "1.0",
+  "contact": "data@hollowhouseinstitute.com"
