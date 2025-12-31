@@ -20,3 +20,12 @@ All Hollow House Institute datasets are indexed and governed here:
 https://github.com/hollowhouseinstitute/dataset_catalog
 
 Current catalog version: v1.0.0
+**Hollow House Institute**  
+Structured Human Intelligence  
+
+Website: https://hollowhouseinstitute.com  
+Datasets: https://hollowhouseinstitute.com/datasets  
+Licensing: https://hollowhouseinstitute.com/licensing  
+
+Contact: data@hollowhouseinstitute.com
+
