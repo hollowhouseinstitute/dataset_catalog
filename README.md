@@ -1,5 +1,11 @@
 # Hollow House Institute — Dataset Catalog
-
+> **Licensing & Governance**
+>
+> All datasets in this catalog are governed by the
+> **Hollow House Institute Master License Suite**  
+> https://github.com/hollowhouseinstitute/Master_License_Suite  
+>
+> No dataset is open-use by default.
 Canonical index of ethically governed datasets for AI safety,
 relational oversight, and governance review.
 
