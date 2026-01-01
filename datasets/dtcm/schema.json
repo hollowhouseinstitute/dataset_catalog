@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DTCM Device Timeline Schema",
+  "type": "object",
+  "properties": {
+    "device_id": { "type": "string" },
+    "configuration_state": { "type": "string" },
+    "timeline_marker": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "change_type": {
+      "type": "string",
+      "enum": ["update", "reset", "configuration"]
+    },
+    "notes": { "type": "string" }
+  },
+  "required": ["device_id", "timeline_marker"]
+}
