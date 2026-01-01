@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RLIC-200 Loop Intelligence Schema",
+  "type": "object",
+  "properties": {
+    "loop_id": { "type": "string" },
+    "loop_type": {
+      "type": "string",
+      "enum": ["escalation", "avoidance", "repair", "collapse"]
+    },
+    "trigger_pattern": { "type": "string" },
+    "resolution_state": {
+      "type": "string",
+      "enum": ["resolved", "unresolved", "interrupted"]
+    },
+    "observational_notes": { "type": "string" }
+  },
+  "required": ["loop_id", "loop_type"]
+}
