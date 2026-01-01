@@ -1,13 +1,24 @@
-# Access & Requests
+# Dataset Access Requests
 
-## Public materials
-- Dataset cards, schemas, small safe samples
+All datasets require explicit approval.
 
-## Restricted materials (if applicable)
-- Full datasets may require:
-  - Signed terms
-  - Intended-use statement
-  - Non-reidentification agreement
+## Required Information
+Requestors must provide:
+- Organization name
+- Intended use case
+- Dataset IDs requested
+- License tier requested
+- Contact information
 
-## Contact
-- <email / issue template link>
+## Review Criteria
+- Alignment with permitted use
+- No prohibited training or replication
+- Compliance with HHI license terms
+
+## Response
+Approved requests receive:
+- License agreement
+- Access instructions
+- Versioned dataset release
+
+Contact: data@hollowhouseinstitute.com
