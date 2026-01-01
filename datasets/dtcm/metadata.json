@@ -1,0 +1,14 @@
+{
+  "dataset_id": "DTCM",
+  "title": "Device & Timeline Configuration Metadata",
+  "version": "1.0.0",
+  "status": "release",
+  "license": "HHI-MLS",
+  "license_tier": "research",
+  "training_permitted": false,
+  "redistribution_permitted": false,
+  "human_derived": false,
+  "contains_sensitive_data": false,
+  "schema_version": "1.0",
+  "contact": "data@hollowhouseinstitute.com"
+}
