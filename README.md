@@ -1,7 +1,8 @@
 # Hollow House Institute — Dataset Catalog
 > Time turns behavior into infrastructure.  
 > Behavior is the most honest data there is.
-> **Licensing & Governance**
+>
+> > **Licensing & Governance**
 
 All datasets in this catalog are governed by the  
 **Hollow House Institute Master License Suite (HHI-MLS)**  
