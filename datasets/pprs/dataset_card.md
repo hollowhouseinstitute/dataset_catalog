@@ -1,20 +1,46 @@
-# Platform Prompt Response Structures
+# Dataset ID: PPRS
 
-Status: Active
-Access: Licensed / Restricted
-Governing Body: Hollow House Institute
+## Title
+Platform Prompt–Response Structures
+
+## Version
+v1.0.0
+
+## Status
+Release
 
 ## Description
-System-level interaction or configuration data curated for ethical AI audits,
-relational risk analysis, and governance review.
+Structural representations of prompt–response exchanges,
+capturing format, constraint layers, and response variance
+without platform exploitation data.
 
-## Permitted Use
-- Ethical AI research
-- Governance & audit review
-- Interaction design analysis
+## Data Origin
+Human-authored prompts with platform outputs.
 
-## Prohibited Use
-- Individual profiling
-- Behavioral prediction
-- Surveillance
-- Model training without license
+## Contents
+- Format: JSON
+- Records: Variable
+- Schema: pprs_v1
+
+## Intended Use
+Permitted:
+- Prompt engineering research
+- Platform governance analysis
+
+Prohibited:
+- Training replication
+- Circumvention research
+
+## License
+HHI Master License Suite  
+Tier: Research
+
+## Access
+Request required  
+data@hollowhouseinstitute.com
+
+## Ethical Notes
+No platform vulnerabilities disclosed.
+
+## Change Log
+v1.0.0 — Initial release
