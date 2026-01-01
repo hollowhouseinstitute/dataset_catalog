@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SASR Subscription State Schema",
+  "type": "object",
+  "properties": {
+    "account_id": { "type": "string" },
+    "state": {
+      "type": "string",
+      "enum": ["active", "paused", "cancelled", "expired"]
+    },
+    "state_change_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "entitlement_level": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "required": ["account_id", "state", "state_change_timestamp"]
+}
