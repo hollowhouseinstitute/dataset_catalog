@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PTII Place-Type Interaction Schema",
+  "type": "object",
+  "properties": {
+    "interaction_id": { "type": "string" },
+    "place_type": {
+      "type": "string",
+      "enum": ["home", "public", "institutional", "digital"]
+    },
+    "interaction_category": { "type": "string" },
+    "context_notes": { "type": "string" }
+  },
+  "required": ["interaction_id", "place_type"]
+}
