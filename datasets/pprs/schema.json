@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PPRS Prompt–Response Structure Schema",
+  "type": "object",
+  "properties": {
+    "exchange_id": { "type": "string" },
+    "prompt_structure": { "type": "string" },
+    "response_structure": { "type": "string" },
+    "constraint_layer": { "type": "string" },
+    "platform_type": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "required": ["exchange_id", "prompt_structure"]
+}
