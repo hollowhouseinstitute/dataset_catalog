@@ -1,20 +1,46 @@
-# Device & Timeline Configuration Metadata
+# Dataset ID: DTCM
 
-Status: Active
-Access: Licensed / Restricted
-Governing Body: Hollow House Institute
+## Title
+Device & Timeline Configuration Metadata
+
+## Version
+v1.0.0
+
+## Status
+Release
 
 ## Description
-System-level interaction or configuration data curated for ethical AI audits,
-relational risk analysis, and governance review.
+Metadata describing device states, configuration changes,
+and timeline-aligned system context without content payloads.
 
-## Permitted Use
-- Ethical AI research
-- Governance & audit review
-- Interaction design analysis
+## Data Origin
+System-derived metadata.
 
-## Prohibited Use
-- Individual profiling
-- Behavioral prediction
-- Surveillance
-- Model training without license
+## Contents
+- Format: JSON
+- Records: Variable
+- Schema: device_timeline_v1
+
+## Intended Use
+Permitted:
+- Systems research
+- Infrastructure audit
+- Temporal analysis
+
+Prohibited:
+- Surveillance modeling
+- User fingerprinting
+
+## License
+HHI Master License Suite  
+Tier: Research
+
+## Access
+Request required  
+data@hollowhouseinstitute.com
+
+## Ethical Notes
+No tracking or biometric signals included.
+
+## Change Log
+v1.0.0 — Initial release
