@@ -1,20 +1,45 @@
-# Place-Type Interaction Index
+# Dataset ID: PTII
 
-Status: Active
-Access: Licensed / Restricted
-Governing Body: Hollow House Institute
+## Title
+Place-Type Interaction Index
+
+## Version
+v1.0.0
+
+## Status
+Release
 
 ## Description
-System-level interaction or configuration data curated for ethical AI audits,
-relational risk analysis, and governance review.
+Categorical interaction patterns mapped to place-types
+(e.g., home, public, institutional) without geolocation data.
 
-## Permitted Use
-- Ethical AI research
-- Governance & audit review
-- Interaction design analysis
+## Data Origin
+Human-observed behavioral categorization.
 
-## Prohibited Use
-- Individual profiling
-- Behavioral prediction
-- Surveillance
-- Model training without license
+## Contents
+- Format: JSON
+- Records: Variable
+- Schema: place_type_v1
+
+## Intended Use
+Permitted:
+- Context modeling
+- Behavioral systems research
+
+Prohibited:
+- Location tracking
+- Identity inference
+
+## License
+HHI Master License Suite  
+Tier: Research / Evaluation
+
+## Access
+Request required  
+data@hollowhouseinstitute.com
+
+## Ethical Notes
+No coordinates or personal location data included.
+
+## Change Log
+v1.0.0 — Initial release
