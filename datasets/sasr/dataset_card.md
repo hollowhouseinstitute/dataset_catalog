@@ -1,20 +1,46 @@
-# Subscription & Account State Records
+# Dataset ID: SASR
 
-Status: Active
-Access: Licensed / Restricted
-Governing Body: Hollow House Institute
+## Title
+Subscription & Account State Records
+
+## Version
+v1.0.0
+
+## Status
+Release
 
 ## Description
-System-level interaction or configuration data curated for ethical AI audits,
-relational risk analysis, and governance review.
+Structured records representing subscription states, account lifecycle
+events, access transitions, and entitlement logic over time.
 
-## Permitted Use
-- Ethical AI research
-- Governance & audit review
-- Interaction design analysis
+## Data Origin
+System-derived, non-biometric, non-clinical.
 
-## Prohibited Use
-- Individual profiling
-- Behavioral prediction
-- Surveillance
-- Model training without license
+## Contents
+- Format: JSON / CSV
+- Records: Variable
+- Schema: subscription_state_v1
+
+## Intended Use
+Permitted:
+- Platform governance research
+- Access-control modeling
+- Compliance simulation
+
+Prohibited:
+- User re-identification
+- Commercial reuse without license
+
+## License
+HHI Master License Suite  
+Tier: Research / Restricted Commercial
+
+## Access
+Approval required  
+data@hollowhouseinstitute.com
+
+## Ethical Notes
+No personal identifiers included.
+
+## Change Log
+v1.0.0 — Initial release
