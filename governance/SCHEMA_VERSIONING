@@ -1,0 +1,18 @@
+# Schema Versioning Policy
+
+All datasets use semantic versioning for schemas.
+
+## Format
+MAJOR.MINOR
+
+- MAJOR: Breaking structural change
+- MINOR: Backward-compatible field additions
+
+## Rules
+- schema.json MUST declare its version in filename or metadata
+- Dataset version increments independently of schema version
+- Old schemas remain accessible for audit reproducibility
+
+## Example
+schema_version: 1.0
+schema file: schema_v1_0.json
