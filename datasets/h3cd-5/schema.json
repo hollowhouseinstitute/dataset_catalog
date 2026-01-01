@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "H3CD-5 Relational Interaction Schema",
+  "type": "object",
+  "properties": {
+    "interaction_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "actor_role": {
+      "type": "string",
+      "enum": ["human", "ai"]
+    },
+    "interaction_type": {
+      "type": "string",
+      "enum": ["prompt", "response", "repair", "escalation"]
+    },
+    "relational_signal": {
+      "type": "string",
+      "enum": ["neutral", "aligned", "misaligned", "repairing"]
+    },
+    "notes": { "type": "string" }
+  },
+  "required": ["interaction_id", "timestamp", "actor_role", "interaction_type"]
+}
