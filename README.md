@@ -35,5 +35,12 @@ Website: https://hollowhouseinstitute.com
 Datasets: https://hollowhouseinstitute.com/datasets  
 Licensing: https://hollowhouseinstitute.com/licensing  
 
-Contact: data@hollowhouseinstitute.com
+────────────────────────────────────────
+Hollow House Institute
+
+Contact
+Founder: Amy Pierce Bui  
+Primary: data@hollowhouse.org  
+Technical: hhidatasettechs@gmail.com
+────────────────────────────────────────
 
